@@ -1,0 +1,22 @@
+body{
+    display: flex;
+flex-direction: column;
+ justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.main{
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.main input{
+    padding: 5px 10px;
+}
+
+.submit{
+    padding: 7px;
+}
