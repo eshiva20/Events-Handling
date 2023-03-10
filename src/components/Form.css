@@ -1,22 +1,32 @@
-body{
-    display: flex;
-flex-direction: column;
- justify-content: center;
-    align-items: center;
-    margin-top: 10%;
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
 }
-.main{
+.main {
     background-color: aqua;
     border-radius: 10px;
-    padding: 2rem;
+    padding: 2rem 5rem;
+    width: 20rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    border: 1px solid gray;
 }
-.main input{
-    padding: 5px 10px;
+.main input {
+  padding: 5px 10px;
+  margin: 5px 0px;
+}
+.submit {
+    padding: 7px;
+    background-color: #166dd7;
+    border: none;
+    color: white;
 }
 
-.submit{
-    padding: 7px;
+.field-div {
+    display: flex;
+    flex-direction: column;
 }
